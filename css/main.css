@@ -2,6 +2,19 @@ div.clear {
 	clear: both;
 }
 
+.cursive {
+	font-family: 'Monsieur La Doulaise', cursive !important;
+	color: #af111c !important;
+}
+
+.cursive2 {
+	font-family: 'Monsieur La Doulaise', cursive !important;
+	color: white !important;
+}
+
+.regularFont {
+		color: white !important;
+}
 
 body {
 	background: url(../images/satanico_haze.png) no-repeat center center fixed; 
@@ -10,6 +23,12 @@ body {
   -o-background-size: cover;
   background-size: cover;
   font-family: 'Monsieur La Doulaise', cursive;
+}
+
+
+
+h2 {
+	color: white !important;
 }
 
 #mainSection {

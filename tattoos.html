@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Satani.co</title>
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Animation styling -->
+    <link rel="stylesheet" href="css/animate-min.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+
+    <link rel="shortcut icon" href="images/icon/icon.png" />
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    
+    <!-- Google Font -->
+    <link href='http://fonts.googleapis.com/css?family=Ruthie|Monsieur+La+Doulaise' rel='stylesheet' type='text/css'>
+
+    <!-- Image Gallery -->
+    <link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+    <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
+
+    <!-- This code will notify users if they are using an out-of-date browser  -->
+    <script> 
+        var $buoop = {c:2}; 
+        function $buo_f(){ 
+         var e = document.createElement("script"); 
+         e.src = "//browser-update.org/update.js"; 
+         document.body.appendChild(e);
+        };
+        try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
+        catch(e){window.attachEvent("onload", $buo_f)}
+    </script> 
+  </head>
+
+  <body>
+		<!-- Google Analytics tracking code -->
+		<?php include_once("analyticstracking.php") ?>
+
+<!-- Begin Navigation -->
+    <div class="navbar navbar-fixed-top" role="navigation">
+
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbarBrandSatanico" href="index.html">Satanico Carlos</a>
+        </div>
+
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <!-- <li><a href="#photos">photos</a></li>
+            <li><a href="#about">about</a></li> -->
+            <li><a href="tattoos.html">Tattoos</a></li>
+            <li><a href="izzy.html">Izzy</a></li>
+            <!-- BEGIN DROPDOWN -->
+            <li class="dropdown"> 
+              <a href="#" class="dropdown-toggle navCustom" data-toggle="dropdown">links<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="http://www.modelmayhem.com/3659179" target="_blank">Model Mayhem</a></li>
+                <li><a href="https://instagram.com/satanicocarlos/" target="_blank">Instagram</a></li>
+                <li><a href="http://satanicocarlos.tumblr.com/" target="_blank">Blog</a></li>
+              </ul>
+            </li>
+            <!-- END DROPDOWN -->
+            <li><a href="mailto:carlos@satani.co">contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+
+      </div> <!-- End container -->
+    </div>  <!-- End Nav Bar -->
+
+    <div class="clear"></div>
+<!-- End Navigation -->
+
+
+<!-- Begin Main Body Content -->
+
+    <div class="container">
+
+      <div id="mainSection">
+        <div class="row">
+          <div class="col-md-12">
+            <section class="mainSubSection" id="photos">
+
+            <div class="col-md-12">
+                <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+                <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls" style="display: none;" data-use-bootstrap-modal="false">
+                    <!-- The container for the modal slides -->
+                    <div class="slides"></div>
+                    <!-- Controls for the borderless lightbox -->
+                    <h3 class="title"></h3>
+                    <a class="prev">‹</a>
+                    <a class="next">›</a>
+                    <a class="close">×</a>
+                    <a class="play-pause"></a>
+                    <ol class="indicator"></ol>
+                    <!-- The modal dialog, which will be used to wrap the lightbox content -->
+                    <div class="modal fade">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" aria-hidden="true">&times;</button>
+                                    <h4 class="modal-title"></h4>
+                                </div>
+                                <div class="modal-body next"></div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default pull-left prev">
+                                        <i class="glyphicon glyphicon-chevron-left"></i>
+                                        Previous
+                                    </button>
+                                    <button type="button" class="btn btn-primary next">
+                                        Next
+                                        <i class="glyphicon glyphicon-chevron-right"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div id="links">
+
+                    <h1 class="cursive2">Skull</h1>
+                    <a href="images/tattoos/skull.png" title="Skull" data-gallery>
+                        <img class="thumbnailPhoto" src="images/tattoos/skull_thumb.png" alt="Skull">
+                    </a>
+                    
+                    <br>
+                    
+                    <hr>
+
+                    <br>
+
+                    <h1 class="cursive2">Wolf and Pomeranian Hybrid</h1>
+                    <h5 class="regularFont">The idea is to create an image of my dog, Izzy, but in the style of a traditional wolf tattoo (two examples provided below)</h5>
+                    <a href="images/tattoos/Izzy4.png" title="Pomeranian" data-gallery>
+                        <img class="thumbnailPhoto" src="images/tattoos/Izzy4_thumb.png" alt="Pomeranian">
+                    </a>
+                    <a href="images/tattoos/wolf2.png" title="wolf" data-gallery>
+                        <img class="thumbnailPhoto" src="images/tattoos/wolf2_thumb.png" alt="wolf">
+                    </a>
+                    <a href="images/tattoos/wolf.png" title="wolf" data-gallery>
+                        <img class="thumbnailPhoto" src="images/tattoos/wolf_thumb.png" alt="wolf">
+                    </a>
+                    <br>
+                    <a href="izzy.html">More photos of the Pomeranian</a>
+
+
+
+                </div>
+            </div>
+
+          </div>
+                
+        </div> <!-- End Row -->
+      </div> <!-- End mainSection -->
+
+
+  <!-- End Main Body Content -->
+
+
+
+  <!-- Begin Footer -->
+    
+      <footer>
+        <br><br><br>
+        <!-- <center><a href="mailto:carlos@satani.co">Send me an email</a></center> -->
+      </footer>
+  <!-- End Footer -->
+
+    
+    </div> <!-- End mainSection container -->
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Image Gallery Javascript Links -->    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+    <script src="js/bootstrap-image-gallery.min.js"></script>
+
+    <!-- ##########################The following script provides the SCROLL functionality ################################## -->
+    <script>
+    $('a[href^="#"]').on('click', function(event) {
+
+        var target = $( $(this).attr('href') );
+
+        if( target.length ) {
+            event.preventDefault();
+            $('html, body').animate({
+                scrollTop: target.offset().top
+            }, 1500);
+        }
+
+    });
+    </script>
+  </body>
+
+</html>
